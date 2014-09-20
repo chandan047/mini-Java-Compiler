@@ -1,0 +1,10 @@
+<project default="build">
+<property name="obj-dir" location="obj" />
+<target name="build">
+<javac srcdir="."/> 
+</target>
+<target name="clean">
+<delete> <fileset dir="." includes="**/*.class"/> </delete>
+</target>
+</project>
+
